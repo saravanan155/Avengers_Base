@@ -18,7 +18,7 @@ import com.springLearning.avengers.repository.AvengersRepositoryImpl;
  */
 public class AvengersServiceImpl implements AvengersService {
 
-	AvengersRepository avengersRepository = new AvengersRepositoryImpl();	
+	AvengersRepository avengersRepository;
 	
 	public AvengersServiceImpl(){
 		
