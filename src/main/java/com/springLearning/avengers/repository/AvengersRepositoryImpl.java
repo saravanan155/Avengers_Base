@@ -9,12 +9,15 @@ package com.springLearning.avengers.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.springLearning.avengers.model.Avengers;
 
 /**
  * @author n0241133
  *
  */
+@Repository("avengerRepository")
 public class AvengersRepositoryImpl implements AvengersRepository {
 	
 	List <Avengers> avengers = new ArrayList();
